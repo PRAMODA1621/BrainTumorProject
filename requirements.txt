@@ -3,4 +3,4 @@ tensorflow
 keras
 pillow
 numpy
-python-3.10.12
+python_version >= 3.10, < 3.12
