@@ -1,5 +1,8 @@
-streamlit
-tensorflow-cpu
-keras
-pillow
+tensorflow==2.15.0
+keras==2.15.0
+h5py==3.14.0
+streamlit==1.26.0
 numpy
+pillow
+matplotlib
+scikit-learn
