@@ -4,9 +4,9 @@ from keras.preprocessing import image
 import numpy as np
 import streamlit as st
 from PIL import Image
-
+from keras.applications.vgg16 import VGG16
 # Load model and define class labels
-model = load_model("my_model.h5")
+model = load_model("my_model.keras",compile=False)
 class_names = ['Glioma', 'Meningioma', 'Pituitary', 'No Tumor']
 
 st.title("🧠 Brain Tumor Detection")
